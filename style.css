@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(https://i.imgur.com/uAcDwxY.jpg);
+}
+
+main {
+  box-sizing: content-box;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#questionNames {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.315)
+}
+
+label {
+  box-sizing: content-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 15px;
+}
+
+footer {
+  background-color: rgba(61, 221, 233, 0.555);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+#submit:hover { 
+  background-color: green;
+  color: yellow;
+}
+
+#submit {
+  background-color:chartreuse;
+}
+
+.quizAnswerResults {
+  margin-top: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  background-color: aqua;
+  text-align: center;
+}
+
+form {
+  margin-top: 150px;
+  box-sizing: border-box;
+  margin: 0 auto 0 auto;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  background: rgba(0, 238, 255, 0.3); 
+  display: grid;
+}
+
+#button-go {
+  margin-top: 25%;
+  background-color: rgb(81, 255, 0);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.quizEndResults {
+  margin-top: 30%;
+  text-align: center;
+  background-color: rgba(251, 255, 0, 0.534)
+}
